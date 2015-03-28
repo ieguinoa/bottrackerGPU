@@ -1,0 +1,606 @@
+The system is: Linux - 3.2.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3802006091/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3802006091.dir/build.make CMakeFiles/cmTryCompileExec3802006091.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3802006091.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec3802006091.dir/testCCompiler.c.o   -c /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec3802006091
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3802006091.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec3802006091.dir/testCCompiler.c.o  -o cmTryCompileExec3802006091 -rdynamic 
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec4254462676/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4254462676.dir/build.make CMakeFiles/cmTryCompileExec4254462676.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4254462676
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4254462676.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4254462676 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.2 (Debian 4.7.2-5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4254462676' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4254462676 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec4254462676/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4254462676.dir/build.make CMakeFiles/cmTryCompileExec4254462676.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-2.8/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4254462676]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4254462676.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4254462676 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (Debian 4.7.2-5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4254462676' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4254462676 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4254462676] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec4254462676.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec3799839007/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3799839007.dir/build.make CMakeFiles/cmTryCompileExec3799839007.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec3799839007.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec3799839007.dir/testCXXCompiler.cxx.o -c /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec3799839007
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3799839007.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec3799839007.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec3799839007 -rdynamic 
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec227340890/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec227340890.dir/build.make CMakeFiles/cmTryCompileExec227340890.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec227340890
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec227340890.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec227340890 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.2 (Debian 4.7.2-5) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec227340890' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec227340890 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/make "cmTryCompileExec227340890/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec227340890.dir/build.make CMakeFiles/cmTryCompileExec227340890.dir/build]
+  ignore line: [make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-2.8/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec227340890]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec227340890.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec227340890 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.2-5' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --with-system-zlib --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --enable-plugin --enable-objc-gc --with-arch-32=i586 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.2 (Debian 4.7.2-5) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec227340890' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --no-add-needed --eh-frame-hdr -m elf_x86_64 --hash-style=both -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec227340890 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--no-add-needed] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec227340890] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec227340890.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse dir [/lib/../lib] ==> [/lib]
+  collapse dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+
+
+The system is: Linux - 3.2.0-3-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4112098246/fast"
+make: Atención: El archivo `Makefile' tiene una hora de modificación 2,4e+04 en el futuro
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4112098246.dir/build.make CMakeFiles/cmTryCompileExec4112098246.dir/build
+make[1]: se ingresa al directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+make[1]: Atención: El archivo `CMakeFiles/cmTryCompileExec4112098246.dir/flags.make' tiene una hora de modificación 2,4e+04 en el futuro
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec4112098246
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4112098246.dir/link.txt --verbose=1
+/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4112098246 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.4-3' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.4 (Debian 4.7.4-3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64/:/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4112098246' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4112098246 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: atención: Se ha detectado una desviación en el reloj. La construcción podría estar incompleta.
+make[1]: se sale del directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+make: atención: Se ha detectado una desviación en el reloj. La construcción podría estar incompleta.
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec4112098246/fast"]
+  ignore line: [make: Atención: El archivo `Makefile' tiene una hora de modificación 2,4e+04 en el futuro]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec4112098246.dir/build.make CMakeFiles/cmTryCompileExec4112098246.dir/build]
+  ignore line: [make[1]: se ingresa al directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Atención: El archivo `CMakeFiles/cmTryCompileExec4112098246.dir/flags.make' tiene una hora de modificación 2,4e+04 en el futuro]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec4112098246]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4112098246.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc     -v CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec4112098246 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.4-3' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.4 (Debian 4.7.4-3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64/:/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec4112098246' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec4112098246 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec4112098246] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec4112098246.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64;/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64;/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64;/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+  implicit fwks: []
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec668095049/fast"
+make: Atención: El archivo `Makefile' tiene una hora de modificación 2,4e+04 en el futuro
+/usr/bin/make -f CMakeFiles/cmTryCompileExec668095049.dir/build.make CMakeFiles/cmTryCompileExec668095049.dir/build
+make[1]: se ingresa al directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+make[1]: Atención: El archivo `CMakeFiles/cmTryCompileExec668095049.dir/flags.make' tiene una hora de modificación 2,4e+04 en el futuro
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec668095049
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec668095049.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec668095049 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.4-3' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.7.4 (Debian 4.7.4-3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64/:/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec668095049' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec668095049 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o
+make[1]: se sale del directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+make[1]: atención: Se ha detectado una desviación en el reloj. La construcción podría estar incompleta.
+make: atención: Se ha detectado una desviación en el reloj. La construcción podría estar incompleta.
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec668095049/fast"]
+  ignore line: [make: Atención: El archivo `Makefile' tiene una hora de modificación 2,4e+04 en el futuro]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec668095049.dir/build.make CMakeFiles/cmTryCompileExec668095049.dir/build]
+  ignore line: [make[1]: se ingresa al directorio `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp']
+  ignore line: [make[1]: Atención: El archivo `CMakeFiles/cmTryCompileExec668095049.dir/flags.make' tiene una hora de modificación 2,4e+04 en el futuro]
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec668095049]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec668095049.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec668095049 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.7.4-3' --with-bugurl=file:///usr/share/doc/gcc-4.7/README.Bugs --enable-languages=c,c++,go,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.7 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.7 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-gnu-unique-object --disable-libmudflap --enable-plugin --with-system-zlib --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.4 (Debian 4.7.4-3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.7/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64/:/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64/:/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64/:/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64/:/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec668095049' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.7/collect2 --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec668095049 /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.7 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64 -L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64 -L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../.. CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/collect2] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec668095049] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64]
+    arg [-L/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64] ==> dir [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec668095049.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.7]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/ipp/../compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64]
+  collapse library dir [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64] ==> [/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.7/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.7;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib;/opt/intel/composer_xe_2013.0.079/compiler/lib/intel64;/opt/intel/composer_xe_2013.0.079/ipp/lib/intel64;/opt/intel/composer_xe_2013.0.079/mkl/lib/intel64;/opt/intel/composer_xe_2013.0.079/tbb/lib/intel64]
+  implicit fwks: []
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec2635605649/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2635605649.dir/build.make CMakeFiles/cmTryCompileExec2635605649.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2635605649.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec2635605649.dir/testCCompiler.c.o   -c /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec2635605649
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2635605649.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec2635605649.dir/testCCompiler.c.o  -o cmTryCompileExec2635605649 -rdynamic 
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec954022482/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec954022482.dir/build.make CMakeFiles/cmTryCompileExec954022482.dir/build
+make[1]: Entering directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec954022482.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec954022482.dir/testCXXCompiler.cxx.o -c /home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec954022482
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec954022482.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec954022482.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec954022482 -rdynamic 
+make[1]: Leaving directory `/home/ieguinoa/bottracker/build/CMakeFiles/CMakeTmp'
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/ieguinoa/bottracker/build/CMakeFiles/CompilerIdCXX/a.out"
+

@@ -1,0 +1,30 @@
+Construcción:
+
+$ cd build
+$ cmake .. -DCMAKE_BUILD_TYPE=Release
+$ make VERBOSE=1
+
+Para ejecutar:
+
+$ ./tracktest ../tests/20110601/test1.avi
+
+Teclas:
+
+espacio - pause / continua
+escape  - salir
++ / -   - aumentar / reducir velocidad
+p       - mostrar / ocultar perímetro
+s       - mostrar / ocultar estadísticas
+.       - frame x frame.
+          continuar presionando . para nuevo frame.
+	  con espacio se continúa.
+
+Dependencias:
+Probado en sistema GNU/Linux.
+linux-2.6.39
+cmake-2.8.4
+binutils-2.21.1
+gcc-4.4.5 con g++
+linux-headers-2.6.36
+glibc-2.12.2
+opencv-2.2.0 con soporte de Qt.
